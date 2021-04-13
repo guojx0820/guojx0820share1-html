@@ -1,0 +1,26 @@
+/*
+span {
+    text-align: center;
+    float: left;
+    width: 20px;
+
+}
+*/
+* {
+    color: pink;
+}
+.fontsize {
+    font-size: 100px;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: green;
+}

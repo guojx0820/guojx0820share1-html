@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    用户名：<input type="text" value="请输入用户名" name="username"><br />
+    昵称：<input type="text" value="请输入昵称" name="nicheng"><br />
+    密码：<input type="password" name="pwd"><br />
+<!--     只选一个的用单选框-->
+     性别：<br />
+         男 <input type="radio" name="sex" checked="checked" />
+         女 <input type="radio" name="sex" />
+     未知 <input type="radio" name="sex" /><br />
+<!--     可选多个的用多选框-->
+     爱好：<br /> 
+         睡觉 <input type="checkbox" name="hobby" />
+         跑步 <input type="checkbox" name="hobby" />
+         篮球 <input type="checkbox" name="hobby" checked="checked" />
+         爬山 <input type="checkbox" name="hobby" /><br />
+         
+<!--    普通按钮需要写value值，但submit(提交按钮)不需要-->
+    <input type="button" value="点击获取验证码"><br />
+    <input type="submit" value="提交按钮"/><br />
+    
+<!--    重置按钮，reset-->
+   <input type="reset" value="重置"><br>
+<!--   图片提交按钮，里面必须包含src属性，导入图片-->
+   <input type="image" src="/Users/leo/Desktop/屏幕快照 2021-04-01 下午9.48.42.png"><br>
+<!--   上传文件，文件域-->
+  上传头像：<br>
+  <input type="file">
+   
+    
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>最简单表单的HTML结构</title>
+</head>
+<body>
+    <form method="post" action="" onsubmit="return eg.regCheck();">
+       <input type="hidden" name="" id="errnum" value="0" />
+        账户：<input type="text" name="" id="userid"/><br /><br />
+        密码：<input type="password" name="" id="userpwd"/><br /><br />
+        确认：<input type="password" name="" id="userpwd2"/><br /><br />
+        简介：<textarea name="" id="about" cols="18" rows="4"></textarea><br /><br />
+        <input type="submit" value="注册" onclick="return eg.regCheck();"/>
+        
+    </form>
+    <script type="text/javascript" src="/User/leo/Desktop/table.js"></script>
+    <script type="text/javascript" src="class_succeding.js"></script>
+    
+</body>
+</html>
